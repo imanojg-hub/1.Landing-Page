@@ -274,6 +274,10 @@ h1 {
     margin-bottom: 30px;
   }
 
+  #Container-3 {
+    margin-top: -20px;
+  }
+
   #Container-3 .quote,
   .author {
     font-size: 18px;
@@ -316,16 +320,14 @@ h1 {
     margin: 30px auto;
   }
 
-  #Container-2{
+  #Container-2 {
     margin: 40px 0;
   }
 
   .product-lists {
     margin-left: 8px;
   }
-  #Container-3 {
-    margin: 40px 0;
-  }
+
   #Container-3 .quote,
   .author {
     font-size: 15px;
@@ -357,5 +359,11 @@ h1 {
   }
   #footer p {
     font-size: 14px;
+  }
+}
+
+@media (max-width: 380px) {
+  #Container {
+    height: 65vh;
   }
 }
