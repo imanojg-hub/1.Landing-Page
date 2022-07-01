@@ -328,31 +328,44 @@ h1 {
     margin-left: 8px;
   }
 
+  #Container-3{
+    margin-bottom: 40px;
+  }
+
   #Container-3 .quote,
   .author {
     font-size: 15px;
     line-height: 20px;
   }
   #Container-4 {
-    margin: 10px;
+    margin: 0 10px;
+  }
+
+  #Container-4 .main {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
   #Container-4 p {
     font-size: 12px;
-    margin-top: 5px;
+    margin-top: 15px;
   }
 
   #Container-4 h3 {
     font-size: 21px;
   }
 
+  #Container-4 .text{
+    max-width: 80%;
+  }
+
   #Container-4 .main {
-    padding: 20px 10px;
+    padding: 10px 0;
   }
   #Container-4 .button-2 {
     padding: 10px 15px;
+    margin-top: 15px;
   }
   #footer {
     margin-top: 40px;
